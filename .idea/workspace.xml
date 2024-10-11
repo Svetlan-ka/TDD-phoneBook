@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a868611a-5198-43a7-8c9c-866ff57dc130" name="Changes" comment=" Stub and tests for add">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/PhoneBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/PhoneBook.java" afterDir="false" />
-    </list>
+    <list default="true" id="a868611a-5198-43a7-8c9c-866ff57dc130" name="Changes" comment="add implemented" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,6 +33,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.PhoneBookTest.addReturnNumberContacts.executor": "Run",
     "JUnit.PhoneBookTest.addReturnResult.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -112,12 +111,29 @@
       <option name="project" value="LOCAL" />
       <updated>1728671070344</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary=" Stub and tests for add">
+      <option name="closed" value="true" />
+      <created>1728671561216</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1728671561216</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add implemented">
+      <option name="closed" value="true" />
+      <created>1728671730777</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1728671730777</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value=" Stub and tests for add" />
-    <option name="LAST_COMMIT_MESSAGE" value=" Stub and tests for add" />
+    <MESSAGE value="add implemented" />
+    <option name="LAST_COMMIT_MESSAGE" value="add implemented" />
   </component>
 </project>
