@@ -11,7 +11,7 @@ public class PhoneBookTest {
         //подготавливаем данные
          int expected = 1;
         //вызываем целевой метод
-        int count = PhoneBook.add();
+        int count = PhoneBook.add("Sveta", 645248);
         //производим проверку
         assertThat(expected, equalTo(count));
     }
