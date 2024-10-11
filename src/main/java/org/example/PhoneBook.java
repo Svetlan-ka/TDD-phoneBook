@@ -4,7 +4,7 @@ import java.util.HashMap;
 
 public class PhoneBook {
     private static PhoneBook INSTANCE = null;
-    HashMap<String, Integer> phoneBook = new HashMap<>();
+    static HashMap<String, Integer> phoneBook = new HashMap<>();
 
     private PhoneBook () {}
 
@@ -14,6 +14,7 @@ public class PhoneBook {
     }
 
     public static int add(String name, Integer number) {
-        return 0;
+        phoneBook.put(name, number);
+        return phoneBook.size();
     }
 }

@@ -44,7 +44,17 @@
     "onboarding.tips.debug.path": "D:/Java/homework_thread/TDD-phoneBook/src/main/java/org/example/Main.java"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.PhoneBookTest.addReturnNumberContacts">
+    <configuration name="PhoneBookTest.addReturnNumberContacts" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TDD-phoneBook" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PhoneBookTest" />
+      <option name="METHOD_NAME" value="addReturnNumberContacts" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PhoneBookTest.addReturnResult" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TDD-phoneBook" />
       <option name="PACKAGE_NAME" value="" />
@@ -57,6 +67,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PhoneBookTest.addReturnNumberContacts" />
         <item itemvalue="JUnit.PhoneBookTest.addReturnResult" />
       </list>
     </recent_temporary>
