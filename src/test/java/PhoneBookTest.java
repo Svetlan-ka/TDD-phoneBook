@@ -1,8 +1,11 @@
 import org.example.PhoneBook;
 import org.junit.jupiter.api.Test;
 
+import java.util.Optional;
+
 import static org.hamcrest.MatcherAssert.assertThat;
-import static org.hamcrest.Matchers.equalTo;
+import static org.hamcrest.Matchers.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class PhoneBookTest {
 
@@ -21,19 +24,19 @@ public class PhoneBookTest {
         //подготавливаем данные
         String expectedName = "Sveta";
         //вызываем целевой метод
+        PhoneBook.add("Sveta", 645248);
         String name = PhoneBook.findByNumber(645248);
         //производим проверку
-        assertThat(name, equals(expectedName));
+        assertEquals(expectedName, name);
     }
 
     @Test
     public void findByNumber_ReturnNull() {
-        //подготавливаем данные
-        String expectedName = null;
         //вызываем целевой метод
+        PhoneBook.add("Sveta", 645248);
         String name = PhoneBook.findByNumber(645148);
         //производим проверку
-        assertThat(name, equals(expectedName));
+        assertThat(name, is(nullValue()));
     }
 
 
