@@ -7,8 +7,8 @@ public class Main {
         PhoneBook.add("Vera", 645246);
         PhoneBook.add("Petya", 529405);
         PhoneBook.add("Vitya", 150283);
-        System.out.println(PhoneBook.findByNumber(645148));
-        System.out.println(PhoneBook.findByNumber(645248));
+        PhoneBook.add("Anton", 645248);
+        PhoneBook.printAllNames();
 
     }
 }
