@@ -30,6 +30,7 @@ public class PhoneBook {
     }
 
     public static Integer findByName(String name) {
-        return null;
+        Optional<Integer> result = Optional.ofNullable(phoneBook.get(name));
+        return result.orElse(null);
     }
 }

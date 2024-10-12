@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a868611a-5198-43a7-8c9c-866ff57dc130" name="Changes" comment="findByNumber implemented">
+    <list default="true" id="a868611a-5198-43a7-8c9c-866ff57dc130" name="Changes" comment="Stub and tests for findByName">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/PhoneBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/PhoneBook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PhoneBookTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PhoneBookTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +41,8 @@
     "JUnit.PhoneBookTest.addReturnResult.executor": "Run",
     "JUnit.PhoneBookTest.add_ReturnNumberContacts.executor": "Run",
     "JUnit.PhoneBookTest.executor": "Run",
+    "JUnit.PhoneBookTest.findByName_ReturnNull.executor": "Run",
+    "JUnit.PhoneBookTest.findByName_ReturnNumberContact.executor": "Run",
     "JUnit.PhoneBookTest.findByNumber_ReturnNameContact.executor": "Run",
     "JUnit.PhoneBookTest.findByNumber_ReturnNull.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -74,11 +76,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PhoneBookTest.add_ReturnNumberContacts" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PhoneBookTest.findByName_ReturnNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TDD-phoneBook" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="PhoneBookTest" />
-      <option name="METHOD_NAME" value="add_ReturnNumberContacts" />
+      <option name="METHOD_NAME" value="findByName_ReturnNull" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PhoneBookTest.findByName_ReturnNumberContact" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TDD-phoneBook" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PhoneBookTest" />
+      <option name="METHOD_NAME" value="findByName_ReturnNumberContact" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -94,23 +106,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PhoneBookTest.findByNumber_ReturnNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TDD-phoneBook" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PhoneBookTest" />
-      <option name="METHOD_NAME" value="findByNumber_ReturnNull" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.PhoneBookTest" />
+        <item itemvalue="JUnit.PhoneBookTest.findByName_ReturnNull" />
+        <item itemvalue="JUnit.PhoneBookTest.findByName_ReturnNumberContact" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.PhoneBookTest.findByNumber_ReturnNameContact" />
-        <item itemvalue="JUnit.PhoneBookTest.findByNumber_ReturnNull" />
-        <item itemvalue="JUnit.PhoneBookTest.add_ReturnNumberContacts" />
       </list>
     </recent_temporary>
   </component>
@@ -202,7 +204,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728741256598</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Stub and tests for findByName">
+      <option name="closed" value="true" />
+      <created>1728741652172</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1728741652172</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -211,6 +221,7 @@
     <MESSAGE value="Stub and tests for findByNumber" />
     <MESSAGE value="add implemented" />
     <MESSAGE value="findByNumber implemented" />
-    <option name="LAST_COMMIT_MESSAGE" value="findByNumber implemented" />
+    <MESSAGE value="Stub and tests for findByName" />
+    <option name="LAST_COMMIT_MESSAGE" value="Stub and tests for findByName" />
   </component>
 </project>

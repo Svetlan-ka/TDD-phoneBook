@@ -54,7 +54,7 @@ public class PhoneBookTest {
     public void findByName_ReturnNull() {
         //вызываем целевой метод
         PhoneBook.add("Sveta", 645248);
-        int number = PhoneBook.findByName("Rita");
+        Integer number = PhoneBook.findByName("Rita");
         //производим проверку
         assertThat(number, is(nullValue()));
     }
