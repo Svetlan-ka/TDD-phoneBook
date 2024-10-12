@@ -28,4 +28,8 @@ public class PhoneBook {
                 .findFirst();
         return result.orElse(null);
     }
+
+    public static Integer findByName(String name) {
+        return null;
+    }
 }

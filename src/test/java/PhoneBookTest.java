@@ -39,6 +39,26 @@ public class PhoneBookTest {
         assertThat(name, is(nullValue()));
     }
 
+    @Test
+    public void findByName_ReturnNumberContact() {
+        //подготавливаем данные
+        int expectedNumber = 645248;
+        //вызываем целевой метод
+        PhoneBook.add("Sveta", 645248);
+        int number = PhoneBook.findByName("Sveta");
+        //производим проверку
+        assertEquals(expectedNumber, number);
+    }
+
+    @Test
+    public void findByName_ReturnNull() {
+        //вызываем целевой метод
+        PhoneBook.add("Sveta", 645248);
+        int number = PhoneBook.findByName("Rita");
+        //производим проверку
+        assertThat(number, is(nullValue()));
+    }
+
 
 
 
